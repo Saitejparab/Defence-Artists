@@ -1,2 +1,0 @@
-# Defence-Artists
-SEO practicals
