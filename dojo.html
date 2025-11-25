@@ -1,67 +1,145 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Our Instructors</title>
-	<meta charset="utf-8" name="discription" content="karate calsses in goa, learn karate in calangue arpora and baga">
-	<meta charset="utf-8" name="keyword" content="karate calsses goa, learn karate calangue arpora baga north goa">
-
-
-
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defense Artists Dojo - Calangute, Goa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #0c1a3f; color: #f0f6fc; font-family: 'Arial', sans-serif; }
+        .bg-dark { background-color: #0c1a3f !important; }
+        .bg-dark-secondary { background-color: #16213E !important; }
+        .navbar-brand { color: #F7B733 !important; font-weight: bold; }
+        .highlight-text { color: #F7B733; font-weight: 700; }
+        .section-title { border-bottom: 3px solid #F7B733; padding-bottom: 10px; margin-bottom: 30px; font-weight: 700; }
+        .media-placeholder { background-color: #30363d; height: 300px; display: flex; align-items: center; justify-content: center; color: #a0a8b4; border-radius: 5px; margin-bottom: 20px; }
+        .achievement-icon { font-size: 2rem; color: #F7B733; margin-right: 15px; }
+        .gallery-image { width: 100%; height: 100%; object-fit: cover; border-radius: 5px; }
+        
+        /* STYLES FOR REEL EMBEDS (9:16 aspect ratio) */
+        .reel-column { 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .reel-container { 
+            width: 100%; 
+            max-width: 300px; /* Max width for vertical videos */
+            aspect-ratio: 9/16; /* Maintains the vertical aspect ratio */
+            background-color: #30363d;
+            border-radius: 5px;
+            overflow: hidden; /* Ensures embedded content fits */
+            margin-bottom: 20px;
+        }
+        .reel-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-md bg-secondary navbar-light">
-	<a class="navbar-brand" href="#">
-      <img src="logo.jfif" class="me-2" height="45"
-        alt="defence Logo" loading="lazy" />
-      
-    </a>
-  <a class="navbar-brand" href="index.html">Defence Artists</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="dojo.html">Our Dojos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contactus.html">Contact US</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="our_instructors.html">Our Instructors</a>
-      </li> 
-	
-       
-    </ul>
-	  
 
-	  
-  </div>
-	
-		
-	<button  class="btn btn-outline-success my-2 my-sm-0" type="submit">Register With Us</button>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">DEFENSE ARTISTS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="instructor.html">Instructor Saitej</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="dojo.html">Our Dojo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Enroll Now</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-      </li>   
-</nav>
-<br>
+    <!-- Dojo Location & Programs -->
+    <section class="container py-5">
+        <h2 class="text-center section-title">The Calangute Dojo: Where Champions Train</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h4 class="highlight-text">Our Location</h4>
+                <p>Defense Artists is located right in the heart of <strong>Calangute, Khobrawado-Calangute Goa</strong>.</p>
+                <!-- MAP PLACEMENT: Place a static map image or an embed code of your exact dojo location here. -->
+                <div class="media-placeholder" style="height: 250px;"><img src="1 (1).jpg" alt="Instructor Saitej in Karate Gi" class="gallery-image shadow-lg" ></div>
+                <p class="text-secondary mt-2">Visit us during scheduled class times. See you on the mats!</p>
+            </div>
+            <div class="col-md-6 mb-4">
+                <h4 class="highlight-text">Programs & Focus Areas</h4>
+                <p>We mentor a diverse range of students, ensuring tailored guidance for every skill level.</p>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><span class="achievement-icon">🛡️</span> <strong>Target Age Group:</strong> Dedicated training for students from <strong>age 5 to 20</strong>.</li>
+                    <li class="mb-2"><span class="achievement-icon">🏆</span> <strong>Competition Ready:</strong> Specialized training for those aspiring to be <strong>State Champions</strong>.</li>
+                    <li class="mb-2"><span class="achievement-icon">🧠</span> <strong>Mental Fortitude:</strong> Emphasis on discipline, focus, and mentorship—skills that last a lifetime.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-  <div class="container">
-	<center>
-	<h1>A Dojo Is A Temple For A Martial Artist</h1>
-		<h5>Our well equipped Dojo in Calangute</h5>
- 	<?center>
- <img src="dojo_in_calangute.jpg" class="img-fluid" alt="image of karate dojo ">   
- 
+    <!-- Student Success Showcase (Gallery Section) -->
+    <section class="container py-5 bg-dark-secondary">
+        <h2 class="text-center section-title">Achievement Gallery: Crafting State Champions</h2>
+        <p class="text-center lead mb-4">A look at the dedication, hard work, and success achieved by our students.</p>
 
-</div>
+        <!-- Gallery Grid -->
+        <div class="row g-4">
+            
+            <!-- REELS ROW -->
+            <div class="col-lg-6">
+                <h5 class="highlight-text text-center">Instructor Reels & Action (9:16)</h5>
+                <div class="row g-4 justify-content-center">
+                    
+                    
 
+            <!-- STUDENT TRAINING PICTURES -->
+          
+<div class="col-md-6 col-lg-3">
+                <div style="height: 300px; margin-bottom: 20px;">
+                    <img src="1 (2).jpg" alt="Student Medal Winners with Instructor Saitej" class="gallery-image shadow-lg">
+                </div>
+                <p class="text-center small text-secondary"></p>
+            </div>
 
+            <!-- MEDAL PICTURES (USING THE UPLOADED IMAGE) -->
+            <div class="col-md-6 col-lg-3">
+                <div style="height: 300px; margin-bottom: 20px;">
+                    <img src="1 (3).jpg" alt="Student Medal Winners with Instructor Saitej" class="gallery-image shadow-lg">
+                </div>
+                <p class="text-center small text-secondary"></p>
+            </div>
+            
+            <!-- TOURNAMENT PICTURES -->
+            <div class="col-md-6 col-lg-3">
+                <div class="media-placeholder">    <img src="1 (9).jpg" alt="Student Medal Winners with Instructor Saitej" class="gallery-image shadow-lg"></div>
+                <p class="text-center small text-secondary"></p>
+            </div>
 
+            <!-- GENERAL TRAINING PICTURE -->
+            <div class="col-md-6 col-lg-3">
+                <div class="media-placeholder">    <img src="1 (10).jpg" alt="Student Medal Winners with Instructor Saitej" class="gallery-image shadow-lg"></div>
+                <p class="text-center small text-secondary">Focus & Conditioning Drills</p>
+            </div>
 
+            <!-- STUDENT PROFILE PICTURE -->
+            <div class="col-md-6 col-lg-3">
+                <div class="media-placeholder">[Picture of the dojo's name board or entrance]</div>
+                <p class="text-center small text-secondary">The Calangute Dojo Entrance</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Footer -->
+    <footer class="bg-dark p-4 text-center">
+        <a href="https://wa.me/9168899951?text=Hello%20Saitej,%20I%20would%20like%20to%20book%20a%20FREE%20trial%20class%20at%20your%20Calangute%20dojo." target="_blank" class="btn btn-lg whatsapp-btn shadow">Ready to Enroll? Contact Us!</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
