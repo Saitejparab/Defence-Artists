@@ -1,85 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Our Instructors</title>
-	<meta charset="utf-8" name="discription" content="karate calsses in goa, learn karate in calangue arpora and baga">
-	<meta charset="utf-8" name="keyword" content="karate calsses goa, learn karate calangue arpora baga north goa">
-
-
-
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructor Saitej Parab - Credentials & Journey</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #0c1a3f; color: #f0f6fc; font-family: 'Arial', sans-serif; }
+        .bg-dark { background-color: #0c1a3f !important; }
+        .bg-dark-secondary { background-color: #16213E !important; }
+        .navbar-brand { color: #F7B733 !important; font-weight: bold; }
+        .highlight-text { color: #F7B733; font-weight: 700; }
+        .section-title { border-bottom: 3px solid #F7B733; padding-bottom: 10px; margin-bottom: 30px; font-weight: 700; }
+        .card { background-color: #16213E; border: 1px solid #30363d; }
+        .profile-img { max-width: 100%; height: auto; border-radius: 10px; border: 5px solid #F7B733; }
+        .timeline-item { border-left: 2px solid #F7B733; padding-left: 20px; position: relative; margin-bottom: 30px; }
+        .timeline-item::before { content: '•'; position: absolute; left: -10px; top: 0; font-size: 1.5rem; color: #F7B733; background-color: #0c1a3f; padding: 0 5px; }
+        /* STYLES FOR REEL EMBEDS (9:16 aspect ratio) */
+        .reel-column { 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .reel-container { 
+            width: 100%; 
+            max-width: 300px; /* Max width for vertical videos */
+            aspect-ratio: 9/16; /* Maintains the vertical aspect ratio */
+            background-color: #30363d;
+            border-radius: 5px;
+            overflow: hidden; /* Ensures embedded content fits */
+            margin-bottom: 20px;
+        }
+        .reel-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .media-placeholder { background-color: #30363d; height: 100%; display: flex; align-items: center; justify-content: center; color: #a0a8b4; border-radius: 5px; }
+        /* New style for the specific seating image */
+        .seating-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 3px solid #F7B733;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-md bg-secondary navbar-light">
-	<a class="navbar-brand" href="#">
-      <img src="logo.jfif" class="me-2" height="45"
-        alt="defence Logo" loading="lazy" />
-      
-    </a>
-  <a class="navbar-brand" href="index.html">Defence Artists</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="dojo.html">Our Dojos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contactus.html">Contact US</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="our_instructors.html">Our Instructors</a>
-      </li> 
-	
-       
-    </ul>
-	  
 
-	  
-  </div>  
-  <button  class="btn btn-outline-success my-2 my-sm-0" type="submit">Register With Us</button>
-      </li>   
-</nav>
-<br>
-<div >
-	<center><h2>Our Karate Instructors</h2></center>
-<div class="card">
-  <div class="card-block"><center>
-    <h4 class="card-title">Sensai Juan Frank</h4>
-    <h6 class="card-subtitle text-muted">Cheif Instructor</h6></center>
-  </div><center>
-  <img src="professional-karate-trainer.png" style="max-width: 10%; mad max-height: 8%" alt="karate Instructors"></center>
-  <div class="card-block">
-  	<center>
-    <p class="card-text">3rd (dan) Degree Black Belt with Professional Knowledge on Karate. 3 times National medalist. </p>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">DEFENSE ARTISTS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="instructor.html">Instructor Saitej</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dojo.html">Our Dojo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Enroll Now</a></li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <section class="container py-5">
+        <h2 class="text-center section-title">Meet Instructor Saitej Parab</h2>
+        <div class="row align-items-center">
+            <div class="col-md-5 text-center mb-4 mb-md-0">
+                <!-- IMAGE PLACEMENT: Use a high-quality picture of Saitej in a formal Karate Gi (uniform) looking professional and confident. -->
+                <img src="1 (8).jpg" alt="Instructor Saitej in Karate Gi" class="profile-img shadow-lg">
+            </div>
+            <div class="col-md-7">
+                <p class="fs-5">
+                    "I began my journey in the 2nd grade when I was 7 Years Old, and for <strong class="highlight-text">over 14 years</strong>, Karate has been my life's passion. Now, as a Black Belt Instructor, I continue the dual pursuit of learning and sharing knowledge."
+                </p>
+                <p>
+                    I am proud to be a <strong>National-level competitor</strong> and a <strong>State Champion</strong> in Traditional Karate, achievements earned through unwavering discipline and focus. I bring this same intensity and commitment to every class taught at the Calangute dojo.
+                </p>
+                <p>
+                     success requires systematic training, consistent effort, and methodical problem-solving—skills.
+                </p>
+            </div>
+        </div>
+    </section>
     
-    </center>
-  </div>
-<br><br>
-  <div class="card">
-  <div class="card-block"><center>
-    <h4 class="card-title">Senfai Xai Chung</h4>
-    <h6 class="card-subtitle text-muted">Instructor</h6></center>
-  </div><center>
-  <img src="karate-instructor.png" style="max-width: 10%; mad max-height: 8%" alt="karate Instructors"></center>
-  <div class="card-block">
-    <center><p class="card-text">1st (dan) Degree Black Belt with Professional Knowledge on Karate. 1 times National medalist. </p></center>
-    
-    
-  </div>
+    <!-- Instructor Reels Section (MOVED UP) -->
+    <section class="container py-5 bg-dark-secondary">
+        <h2 class="text-center section-title">Action Reels & Advanced Techniques</h2>
+        <div class="row g-4 justify-content-center">
+            
+            <!-- REEL 1 PLACEMENT -->
+            <div class="col-md-6 reel-column">
+                <h5 class="highlight-text text-center"></h5>
+                <div class="reel-container">
+                    <!-- PASTE YOUR FIRST REEL EMBED CODE HERE. IMPORTANT: Add parameters like ?autoplay=0&mute=1 to the iframe src to prevent auto-play and mute the video. -->
+                    <div class="media-placeholder" style="height: 100%; margin-bottom: 0;">
+                        <video 
+                        src="1 (2).mp4" 
+                        controls 
+                        loop 
+                        muted 
+                        autoplay
+                        preload="metadata"
+                       
+                        title="Advanced Kata Demonstration by Saitej"
+                    >
+                        Your browser does not support the video tag.
+                    </video>
+                    </div>
+                </div>
+                <p class="text-center small text-secondary"> Advanced Techniques</p>
+            </div>
 
+            <!-- REEL 2 PLACEMENT -->
+            <div class="col-md-6 reel-column">
+                <h5 class="highlight-text text-center"> Action</h5>
+                <div class="reel-container">
+                    <!-- PASTE YOUR SECOND REEL EMBED CODE HERE. IMPORTANT: Add parameters like ?autoplay=0&mute=1 to the iframe src to prevent auto-play and mute the video. -->
+                    <div class="media-placeholder" style="height: 100%; margin-bottom: 0;">
+                        <div class="media-placeholder" style="height: 100%; margin-bottom: 0;">
+                        <video 
+                        src="1 (1).mp4" 
+                        controls 
+                        loop 
+                        muted 
+                        autoplay
+                        preload="metadata"
+                       
+                        title="Advanced Kata Demonstration by Saitej"
+                    >
+                    </div>
+                </div>
+                <p class="text-center small text-secondary"></p>
+            </div>
+        </div>
+    </section>
 
-</div>
+    <!-- Instructor Seating Image (MOVED DOWN) -->
+    <section class="container py-5">
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-10 text-center">
+                <h4 class="highlight-text">The Seat of Instruction: Leadership and Guidance</h4>
+                <!-- IMAGE PLACEMENT: Place a picture of the instructor sitting/kneeling at the front of the dojo, showing the formal sensei posture. -->
+                <img src="1 (4).jpg" alt="Instructor Saitej in formal seating position in the dojo" class="seating-image shadow">
+                <p class="text-secondary">
+            </div>
+        </div>
+    </section>
 
+    <!-- Achievement Timeline -->
+    <section class="container py-5 bg-dark-secondary">
+        <h2 class="text-center section-title">My Journey & Achievements</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="timeline-item">
+                    <h4 class="highlight-text">2nd Grade - Beginnings</h4>
+                    <p class="text-secondary mb-0">The foundation of discipline was set. Started training in Traditional Karate.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4 class="highlight-text">State Championship Success</h4>
+                    <p class="text-secondary mb-0">Achieved status as a <strong>State Champion</strong> in multiple competitions, demonstrating high-level execution and competitive spirit.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4 class="highlight-text">National Player & Meritorious Status</h4>
+                    <p class="text-secondary mb-0">Represented the state at the National level. Certified as a <strong>Meritorious Sportsperson</strong> by relevant associations.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4 class="highlight-text">Black Belt & Instructor Role (Present)</h4>
+                    <p class="text-secondary mb-0">Became a certified Black Belt and instructor, dedicating myself to mentoring the next generation of disciplined athletes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</div>
+    <!-- Contact Footer -->
+    <footer class="bg-dark p-4 text-center">
+        <p class="mb-1">Connect with Instructor Saitej on LinkedIn: <a href="www.linkedin.com/in/saitej-parab-266889206" target="_blank" class="highlight-text">View Profile</a></p>
+    </footer>
 
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
